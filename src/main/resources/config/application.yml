@@ -1,0 +1,13 @@
+application:
+    http-client: 
+        client-01: 
+            url: 'https://www.alphavantage.co/query'
+            connect-timeout: 9000
+            read-timeout: 9000
+            write-timeout: 9000
+            key: 'HRW98SVT92PUFH1J'
+        client-02: 
+            url: 'local'
+            connect-timeout: 9000
+            read-timeout: 9000
+            write-timeout: 9000
